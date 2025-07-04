@@ -20,7 +20,12 @@ public class QuestionsController implements Initializable {
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+        try{
+            //Thiet lap ket noi
+            Connection conn = JbdcConnector.getInstance().connect();
+            
+            //Xu ly truy van 
+        }catch
     }    
     
 }
